@@ -23,7 +23,7 @@
 
 #define LED_PIN            -1
 
-#define FAN_PIN            -1
+#define FAN_PIN            4
 
 // #if FAN_PIN == 12 || FAN_PIN ==13
 //   #define FAN_SOFT_PWM
@@ -45,7 +45,7 @@
 #endif
 
 #ifdef NUM_SERVOS
-  #define SERVO0_PIN          -1
+  #define SERVO0_PIN          11
 
   #if NUM_SERVOS > 1
     #define SERVO1_PIN        -1
